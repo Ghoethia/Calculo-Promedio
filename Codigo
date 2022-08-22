@@ -17,6 +17,9 @@ while SumPorcentaje < 100:
     Nota_Acomulada = i/100
     Estado = Nota_Acomulada
     
+    #Se agrega esta linea para indicar cuanto va del porcentaje
+    print(f"El porcentaje es {SumPorcentaje} de 100")
+    
     if Estado >= 3.0:
         Estado = "aprobado"
     else:
